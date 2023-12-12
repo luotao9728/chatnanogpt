@@ -55,7 +55,7 @@
 >> * For QA task, the format of the input should be: \
 >> -->  { "mode": "qa", "context": "context for the question", "question": "your question here"}
 
-* Quick Start
+* Quick Start:
 > from chatnanogpt import ChatNanoGPT \
 > \
 > chat = ChatNanoGPT() \
