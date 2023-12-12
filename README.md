@@ -38,7 +38,7 @@ Link to download <finetune.pth>:
 
 > chatnanogpt.py
 
-<img src="https://github.com/luotao9728/chatnanogpt/blob/main/wrapper.png" alt="image" width="50%" height="auto" class="center">
+<img src="https://github.com/luotao9728/chatnanogpt/blob/main/wrapper.png" alt="image" width="50%" height="auto">
 
 4. API-like access:
 > from chatnanogpt import ChatNanoGPT \
