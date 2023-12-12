@@ -49,15 +49,15 @@
 4. API-like access:
 
 > Note that the input must be python dictionaries or in JSON format. 
->> * For summarization task, the format of the input should be: \
->> --> { "mode": "summuarization", "article": "article contents"}
->
->> * For QA task, the format of the input should be: \
->> -->  { "mode": "qa", "context": "context for the question", "question": "your question here"}
+> * For summarization task, the format of the input should be: \
+> --> { "mode": "summuarization", "article": "article contents"} 
+> 
+> * For QA task, the format of the input should be: \
+> -->  { "mode": "qa", "context": "context for the question", "question": "your question here"}
 
 * Quick Start:
-> from chatnanogpt import ChatNanoGPT \
-> \
+> from chatnanogpt import ChatNanoGPT 
+> 
 > chat = ChatNanoGPT() \
 > output = chat.chat(input) 
 
