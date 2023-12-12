@@ -26,9 +26,10 @@
 Link to download <pretain_best.pth> (for model 1):
 > https://drive.google.com/file/d/1zfdaTa1Ky_ag5OLHuqb2Xb5F4FXq5DI-/view?usp=drive_link
 
-![Architectures](https://github.com/luotao9728/chatnanogpt/blob/main/architectures.png)
-
-![Architectures](https://github.com/luotao9728/chatnanogpt/blob/main/table.png)
+<div align="center">
+  <img src="https://github.com/luotao9728/chatnanogpt/blob/main/architectures.png" alt="image" width="100%" height="auto">
+  <img src="https://github.com/luotao9728/chatnanogpt/blob/main/table.png" alt="image" width="50%" height="auto">
+</div>
 
 2. Finetune
 > finetune.py (126.6M parameters)
@@ -40,7 +41,9 @@ Link to download <finetune.pth>:
 
 > chatnanogpt.py
 
-<img src="https://github.com/luotao9728/chatnanogpt/blob/main/wrapper.png" alt="image" width="50%" height="auto">
+<div align="center">
+  <img src="https://github.com/luotao9728/chatnanogpt/blob/main/wrapper.png" alt="image" width="50%" height="auto">
+</div>
 
 4. API-like access:
 > from chatnanogpt import ChatNanoGPT \
