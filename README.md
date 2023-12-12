@@ -24,7 +24,7 @@
 > pretrain_model3.py (54.7M parameters) \
 > pretrain_model4.py (26.5M parameters)
 
-Link to download <pretain_best.pth> (for model 1):
+* Link to download <pretain_best.pth> (for model 1):
 > https://drive.google.com/file/d/1zfdaTa1Ky_ag5OLHuqb2Xb5F4FXq5DI-/view?usp=drive_link
 
 <div align="center">
@@ -35,7 +35,7 @@ Link to download <pretain_best.pth> (for model 1):
 2. Finetune
 > finetune.py (126.6M parameters)
 
-Link to download <finetune.pth>:
+* Link to download <finetune.pth>:
 > https://drive.google.com/file/d/1rDawxNDpJJgD9RK1bwhCyuU3jzQLM07N/view?usp=sharing
 
 3. ChatNanoGPT model:
@@ -55,10 +55,11 @@ Link to download <finetune.pth>:
 >> * For QA task, the format of the input should be: \
 >> -->  { "mode": "qa", "context": "context for the question", "question": "your question here"}
 
+* Quick Start
 > from chatnanogpt import ChatNanoGPT \
 > \
 > chat = ChatNanoGPT() \
 > output = chat.chat(input) 
 
-Detailed demos could be found on: 
+* Detailed demos could be found on: 
 > lets_chat.ipynb
