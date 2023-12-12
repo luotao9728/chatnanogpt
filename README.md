@@ -31,6 +31,7 @@
 4. API-like access:
 > from chatnanogpt import ChatNanoGPT \
 > chat = ChatNanoGPT() \
-> output = chat.chat(input)
-Detailed demos could be found on:
+> output = chat.chat(input) 
+
+Detailed demos could be found on: 
 > lets_chat.ipynb
