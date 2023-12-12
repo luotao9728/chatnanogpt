@@ -41,11 +41,11 @@
 
 > chatnanogpt.py
 
+## Step 4: Implementation of ChatNanoGPT:
+
 <div align="center">
   <img src="https://github.com/luotao9728/chatnanogpt/blob/main/wrapper.png" alt="image" width="50%" height="auto">
 </div>
-
-## Step 4: Implementation of ChatNanoGPT:
 
 > Note that the input must be python dictionaries or in JSON format. 
 > * For summarization task, the format of the input should be: \
