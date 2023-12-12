@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 class="title">ChatNanoGPT</h1>
+  <h1 class="title">LLM: ChatNanoGPT</h1>
   <br> Carnegie Mellon University
   <br> 11685 - Introduction to Deep Learning
   <br> Fall 2023 HW5
