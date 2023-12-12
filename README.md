@@ -17,6 +17,9 @@
 
 ## 3 stages for this project:
 1. Pretrain
+
+![Architectures](https://github.com/luotao9728/chatnanogpt/blob/main/architectures.png)
+
 > pretrain_model1.py (126.6M parameters) \
 > pretrain_model2.py (57.3M parameters) \
 > pretrain_model3.py (54.7M parameters) \
