@@ -1,7 +1,10 @@
-# ChatNanoGPT
-> Carnegie Mellon University \
-> Fall 2023 HW5 \
-> Tao Luo, Yiyang Zheng
+<div align="center">
+  <h1 class="title">ChatNanoGPT</h1>
+  <br> Carnegie Mellon University
+  <br> 11685 - Introduction to Deep Learning
+  <br> Fall 2023 HW5
+  <br> Tao Luo, Yiyang Zheng
+</div>
 
 ## Data preprocessing:
 1. Build vocabulary dictionaries and encode data from OpenWebText dataset:
