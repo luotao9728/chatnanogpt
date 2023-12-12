@@ -47,16 +47,17 @@ Link to download <finetune.pth>:
 </div>
 
 4. API-like access:
-> from chatnanogpt import ChatNanoGPT \
-> chat = ChatNanoGPT()
 
 > Note that the input must be python dictionaries or in JSON format. 
->> For summarization task, the format of the input should be: \
->> { "mode": "summuarization", "article": "article contents"}
+>> * For summarization task, the format of the input should be: \
+>> --> { "mode": "summuarization", "article": "article contents"}
 >
->> For QA task, the format of the input should be: \
->> { "mode": "qa", "context": "context for the question", "question": "your question here"}
->
+>> * For QA task, the format of the input should be: \
+>> -->  { "mode": "qa", "context": "context for the question", "question": "your question here"}
+
+> from chatnanogpt import ChatNanoGPT \
+> \
+> chat = ChatNanoGPT() \
 > output = chat.chat(input) 
 
 Detailed demos could be found on: 
