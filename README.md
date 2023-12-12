@@ -18,12 +18,12 @@
 ## 3 stages for this project:
 1. Pretrain
 
-![Architectures](https://github.com/luotao9728/chatnanogpt/blob/main/architectures.png)
-
 > pretrain_model1.py (126.6M parameters) \
 > pretrain_model2.py (57.3M parameters) \
 > pretrain_model3.py (54.7M parameters) \
 > pretrain_model4.py (26.5M parameters)
+
+![Architectures](https://github.com/luotao9728/chatnanogpt/blob/main/architectures.png)
 
 Link to download <pretain_best.pth> (for model 1):
 > https://drive.google.com/file/d/1zfdaTa1Ky_ag5OLHuqb2Xb5F4FXq5DI-/view?usp=drive_link
@@ -35,7 +35,10 @@ Link to download <finetune.pth>:
 > https://drive.google.com/file/d/1rDawxNDpJJgD9RK1bwhCyuU3jzQLM07N/view?usp=sharing
 
 3. ChatNanoGPT model:
+
 > chatnanogpt.py
+
+<img src="https://github.com/luotao9728/chatnanogpt/blob/main/wrapper.png" alt="image" width="50%" height="auto" class="center">
 
 4. API-like access:
 > from chatnanogpt import ChatNanoGPT \
