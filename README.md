@@ -16,8 +16,7 @@
 4. Index to string dictionary:
 > itos_comm.json
 
-## 3 stages for this project:
-1. Pretrain
+## Step 2: Pretrain
 
 > pretrain_model1.py (126.6M parameters) \
 > pretrain_model2.py (57.3M parameters) \
@@ -32,7 +31,7 @@
   <img src="https://github.com/luotao9728/chatnanogpt/blob/main/table.png" alt="image" width="50%" height="auto">
 </div>
 
-2. Finetune
+## Step 3: Finetune
 > finetune.py (126.6M parameters)
 
 * Link to download <finetune.pth>:
@@ -46,7 +45,7 @@
   <img src="https://github.com/luotao9728/chatnanogpt/blob/main/wrapper.png" alt="image" width="50%" height="auto">
 </div>
 
-4. API-like access:
+## Step 4: Implementation of ChatNanoGPT:
 
 > Note that the input must be python dictionaries or in JSON format. 
 > * For summarization task, the format of the input should be: \
@@ -56,6 +55,9 @@
 > -->  { "mode": "qa", "context": "context for the question", "question": "your question here"}
 
 * Quick Start:
+
+API-like access
+
 > from chatnanogpt import ChatNanoGPT 
 > 
 > chat = ChatNanoGPT() \
