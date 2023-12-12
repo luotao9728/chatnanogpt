@@ -6,16 +6,14 @@
   <br> Tao Luo, Yiyang Zheng
 </div>
 
-## Data preprocessing:
+## Step 1: Data preprocessing:
 1. Build vocabulary dictionaries and encode data from OpenWebText dataset:
 > build_dict.py
 2. Encode data from CNN Dailymail and SQuAD datasets:
 > encode_finetune.py
-
-## Dictionaries:
-1. String to index dictionary:
+3. String to index dictionary:
 > stoi_comm.json
-2. Index to string dictionary:
+4. Index to string dictionary:
 > itos_comm.json
 
 ## 3 stages for this project:
