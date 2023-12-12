@@ -22,8 +22,14 @@
 > pretrain_model3.py (54.7M parameters) \
 > pretrain_model4.py (26.5M parameters)
 
+Link to download <pretain_best.pth> (for model 1):
+> https://drive.google.com/file/d/1zfdaTa1Ky_ag5OLHuqb2Xb5F4FXq5DI-/view?usp=drive_link
+
 2. Finetune
 > finetune.py (126.6M parameters)
+
+Link to download <finetune.pth>:
+> https://drive.google.com/file/d/1rDawxNDpJJgD9RK1bwhCyuU3jzQLM07N/view?usp=sharing
 
 3. ChatNanoGPT model:
 > chatnanogpt.py
