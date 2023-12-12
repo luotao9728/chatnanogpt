@@ -23,10 +23,12 @@
 > pretrain_model3.py (54.7M parameters) \
 > pretrain_model4.py (26.5M parameters)
 
-![Architectures](https://github.com/luotao9728/chatnanogpt/blob/main/architectures.png)
-
 Link to download <pretain_best.pth> (for model 1):
 > https://drive.google.com/file/d/1zfdaTa1Ky_ag5OLHuqb2Xb5F4FXq5DI-/view?usp=drive_link
+
+![Architectures](https://github.com/luotao9728/chatnanogpt/blob/main/architectures.png)
+
+![Architectures](https://github.com/luotao9728/chatnanogpt/blob/main/table.png)
 
 2. Finetune
 > finetune.py (126.6M parameters)
